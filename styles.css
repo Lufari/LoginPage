@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #06283D;
+}
+  
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+.card{
+    background-image: linear-gradient(to top, #007adf 0%, #16b696 100%);
+    width: 300px;
+    padding: 30px;
+    border-radius: 18px;
+}
+  
+.card-header{
+    padding-bottom: 40px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.card-header::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin-top: -15px;
+  margin-left: 1px;
+}
+
+.card-content label {
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.card-content-area {
+  display: block;
+  align-self: center;
+  padding: 2px 0;
+}
+
+.card-content-area input {
+  width: 90%;
+  margin: 8px 0;
+  padding: 0 15px;
+  background-color: #c5e4de;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  outline: none;
+  color: #06283D;
+  height: 40px;
+}
+
+.card-content-checkbox {
+margin: 2px 2px 8px 0px;
+opacity: 0.8;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-footer .submit {
+  width: 280px;
+  height: 40px;
+  background-color: #06283D;
+  border: none;
+  border-radius: 20px;
+  color: #e1e1e1;
+  margin: 50px 0 15px;
+}
+
+.card-footer .passwordRecovery {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
